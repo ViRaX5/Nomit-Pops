@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    height: 128px;
+    color: #3E3F43;
+    font-weight: 700;
+}
+
+header > a > span {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+    color: #612999;
+}
+
+.home {
+    font-weight: 700;
+}
+
+.enjoy, header {
+    font-family: 'Nunito', sans-serif;
+}
+
+header > a {
+    display: flex;
+    align-items: center;
+}
+
+header > a > img {
+    height: 64px;
+    width: 64px;
+}
+
+header > a > span {
+    width: 200px;
+}
+
+main {
+    padding-bottom: 200px;
+}
+
+footer {
+    height: 287px;
+    background-color: #EFECFF;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 800;
+    color:#612999;
+}
+
+.enjoy {
+    background: url(../images/Gemini_Generated_Image_new-bg.png) no-repeat center;
+    background-size: cover;
+    background-position-y: -250px;
+    padding: 0px 0px;
+    height: 797px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#wrapper > main > .about,
+#wrapper > main > .popular-pops,
+#wrapper > main > .enjoy > .ulta-constainer
+ {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#wrapper > main > .enjoy > .ulta-constainer > .text-container {
+    width: 448px;
+    height: 230px;
+}
+
+#wrapper > main > .enjoy {
+    width: 100%;
+}
+
+#wrapper header{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#wrapper footer{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.about > p {
+    padding-top: 30px;
+}
+
+.popular-pops {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex inline-block;
+    width: 376px;
+    height: 496px;
+    background-color: #EFECFF;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    border-radius: 38px;
+}
+
+article > div {
+    width: 376px;
+    height: 248px;
+    border-radius: 38px;
+}
+
+.dor {
+    background: url(../images/Dor_Funko.png) no-repeat center;
+    background-size: cover;
+    background-position-y: -125px;
+}
+
+.alex {
+    background: url(../images/Gemini_Generated_Image_alex_funko.png) no-repeat center;
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+.noam {
+    background: url(../images/Gemini_Generated_Image_noam_funko.png) no-repeat center;
+    background-size: cover;
+    background-position-y: -90px;
+}
+
+.amit-and-shelly {
+    background: url(../images/Gemini_Generated_Image_amit_and_shelly_funko.png) no-repeat center;
+    background-size: cover;
+    background-size: 110%;
+    background-position-y: -30px;
+}
+
+.niv {
+    background: url(../images/Gemini_Generated_Image_niv.png) no-repeat center;
+    background-size: cover;
+    background-position-y: -140px;
+}
+
+.heart {
+    background: url(../images/Ellipse\ heart\ 1.svg) no-repeat center;
+    width: 23px;
+    height: 20px;
+    padding: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.cart {
+    background: url(../images/Ellipse\ cart\ 1.svg) no-repeat center;
+    height: 31px;
+    width: 31px;
+    padding: 16px;
+    position: absolute;
+    bottom: 27px;
+    right: 35px;
+}
+
+.container {
+    width: 1200px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > article {
+    height: 496px;
+    width: 376px;
+    position: relative;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    padding-top: 32px;
+    color: #612999;
+    padding-bottom: 16px;
+}
+
+.product-text {
+    margin-left: 32px;
+    font-family: "Abel", sans-serif;
+
+}
+
+.product-text > span {
+    position: absolute;
+    left: 32px;
+    bottom: 36px;
+    font-size: 35px;
+    color: #612999;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.indentation {
+    padding-left: 32px;
+}
+
+
