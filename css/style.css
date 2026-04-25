@@ -38,7 +38,7 @@ nav {
     font-weight: 700;
 }
 
-.enjoy, header {
+.enjoy, header, .who-we-are, .follow-us, .copy-rights {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -57,10 +57,13 @@ header > a > span {
 }
 
 main {
-    padding-bottom: 200px;
+    padding-bottom: 32px;
 }
 
 footer {
+    color: #333333;
+    padding-top: 32px;
+    padding-left: 32px;
     height: 287px;
     background-color: #EFECFF;
 }
@@ -89,8 +92,10 @@ body {
 
 #wrapper > main > .about,
 #wrapper > main > .popular-pops,
-#wrapper > main > .enjoy > .ulta-constainer
+#wrapper > main > .enjoy > .ulta-constainer,
+#wrapper > footer
  {
+    padding-left: 32px;
     width: 1200px;
     margin: 0px auto;
 }
@@ -173,23 +178,23 @@ article > div {
 }
 
 .heart {
+    display: inline;
     background: url(../images/Ellipse\ heart\ 1.svg) no-repeat center;
     width: 23px;
     height: 20px;
     padding: 16px;
-    position: absolute;
-    top: 16px;
-    right: 16px;
+    margin-top: 16px;
+    margin-left: 299px;
 }
 
 .cart {
+    display: inline;
     background: url(../images/Ellipse\ cart\ 1.svg) no-repeat center;
     height: 31px;
     width: 31px;
     padding: 16px;
-    position: absolute;
-    bottom: 27px;
-    right: 35px;
+    margin-top: 339px;
+    margin-left: 262px;
 }
 
 .container {
@@ -202,7 +207,6 @@ article > div {
 .container > article {
     height: 496px;
     width: 376px;
-    position: relative;
 }
 
 h2 {
@@ -221,9 +225,8 @@ h2 {
 }
 
 .product-text > span {
-    position: absolute;
-    left: 32px;
-    bottom: 36px;
+    display: block;
+    margin-top: 40px;
     font-size: 35px;
     color: #612999;
 }
@@ -235,8 +238,42 @@ h3 {
     font-weight: 400;
 }
 
-.indentation {
-    padding-left: 32px;
+ul {
+    list-style: none;
 }
 
+li {
+    margin-bottom: 8px;
+}
 
+.container-footer {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.copy-rights {
+    font-weight: 600;
+    size: 16px;
+}
+
+.social-images {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.social-images > a > img {
+    margin-right: 24px;
+}
+
+.nav-hover:hover {
+    color: #9c40f8;
+}
