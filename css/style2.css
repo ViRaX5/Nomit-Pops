@@ -9,6 +9,7 @@
 #wrapper > footer,
 #wrapper > header
  {
+    padding-right: 32px;
     padding-left: 32px;
     width: 1200px;
     margin: 0px auto;
@@ -75,15 +76,20 @@ nav {
 .images-container {
     height: 300px;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
+    width: 1200px;
 }
 
-.image-container >
+video {
+    width: 1200px;
+    margin-bottom: 32px;
+}
 
 /*          footer           */
 
 footer {   
     color: #333333;
+    margin-top: 32px;
     padding-top: 32px;
     padding-left: 32px;
     height: 255px;
@@ -105,6 +111,11 @@ footer {
 .social-images {
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+.who-we-are > ul > li,
+.follow-us > ul > li {
+    margin-bottom: 8px;
 }
 
 .social-images > a > img {
@@ -167,10 +178,6 @@ ul {
     color: black;
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
-}
-
-.who-we-are > ul > li {
     margin-bottom: 8px;
 }
 

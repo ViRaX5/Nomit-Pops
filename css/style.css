@@ -11,6 +11,7 @@
 #wrapper > footer,
 #wrapper > header
  {
+    padding-right: 32px;
     padding-left: 32px;
     width: 1200px;
     margin: 0px auto;
