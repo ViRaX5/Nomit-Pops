@@ -1,3 +1,8 @@
+
+/* <!-- Noam Eilat: 322713025 -->
+<!-- Amit Lachmann: 207448267 --> */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -76,20 +81,16 @@ nav {
 
 /*          main             */
 
-main {
-    padding-bottom: 32px;
-}
-
 .enjoy {
-    background: url(../images/Gemini_Generated_Image_bg.png) no-repeat center;
+    background: url(../images/ejoy_bg.png) no-repeat center;
     background-size: cover;
-    /* background-position-y: -50px; */
     padding: 0px 0px;
     height: 797px;
 }
 
 .about > p {
     padding-top: 30px;
+    font-family: "Rubik", sans-serif;
 }
 
 .popular-pops {
@@ -130,39 +131,39 @@ article > div {
 }
 
 .dor {
-    background: url(../images/Dor_Funko.png) no-repeat center;
+    background: url(../images/Dor_MandPop.png) no-repeat center;
     background-size: cover;
     background-position-y: -125px;
 }
 
 .alex {
-    background: url(../images/Gemini_Generated_Image_alex_funko.png) no-repeat center;
+    background: url(../images/Alex_TkachenPop.png) no-repeat center;
     background-size: cover;
     background-position-y: -80px;
 }
 
 .noam {
-    background: url(../images/Gemini_Generated_Image_noam_funko.png) no-repeat center;
+    background: url(../images/Noam_EilPop.png) no-repeat center;
     background-size: cover;
     background-position-y: -90px;
 }
 
 .amit-and-shelly {
-    background: url(../images/Gemini_Generated_Image_amit_and_shelly_funko.png) no-repeat center;
+    background: url(../images/Amit_and_Shellly_DuPop.png) no-repeat center;
     background-size: cover;
     background-size: 110%;
     background-position-y: -30px;
 }
 
 .niv {
-    background: url(../images/Gemini_Generated_Image_niv.png) no-repeat center;
+    background: url(../images/Niv_ShtienPop_big.png) no-repeat center;
     background-size: cover;
     background-position-y: -140px;
 }
 
 .heart {
     display: inline;
-    background: url(../images/Ellipse\ heart\ 1.svg) no-repeat center;
+    background: url(../images/heart_bg.svg) no-repeat center;
     width: 23px;
     height: 20px;
     padding: 16px;
@@ -172,7 +173,7 @@ article > div {
 
 .cart {
     display: inline;
-    background: url(../images/Ellipse\ cart\ 1.svg) no-repeat center;
+    background: url(../images/cart_bg.svg) no-repeat center;
     height: 31px;
     width: 31px;
     padding: 16px;
@@ -180,16 +181,28 @@ article > div {
     margin-left: 262px;
 }
 
-.product-text {
+.product-text-container {
+    display: flex;
+}
+
+.product-text-container > .product-text {
     margin-left: 32px;
     font-family: "Abel", sans-serif;
 }
 
-.product-text > span {
+.explenation {
+    width: 315px;
+    height: 96px;
+}
+
+.product-text-container > .product-text > span {
     display: block;
-    margin-top: 40px;
     font-size: 35px;
     color: #612999;
+}
+
+.price {
+    padding-top: 13px;
 }
 
 /*          footer           */
@@ -255,8 +268,8 @@ h2 {
 }
 
 h3 {
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 21px;
+    margin-bottom: 7px;
     font-size: 30px;
     font-weight: 400;
 }
